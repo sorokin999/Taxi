@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/brand_2.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="font/style.css">
+    <title>Taxi</title>
+</head>
+
+<body>
+    <header>
+        <div class="container ">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/brand 1.png" alt="" width="45px" height="42px">
+                    </a>
+                </div>
+                <div class="header-nav">
+                    <ul class="topmenu">
+                        <li><a href="#">Водителям</a></li>
+                        <li><a href="index.html">Вход</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <register>
+            <div class="reg">
+                <img src="img/bloknot.PNG" width="70px" height="50px" alt="">
+                <span class="span-top">Регистрация</span>
+                <form id="register_form" method="POST">
+                    <span>Фамилия<br></span>
+                    <input class="input_" type="text" name="surname" placeholder="Введите фамилию" required>
+                    <span>Имя<br></span>
+                    <input class="input_" type="text" name="name" placeholder="Введите имя" required>
+                    <span>Отчество<br></span>
+                    <input class="input_" type="text" name="otch" placeholder="Введите отчество" required>
+                    <span>Телефон<br></span>
+                    <input class="input_" type="text" minlength="12" maxlength="12" name="phone" placeholder="+7 (999) 999-99-99" required>
+                    <span>Email<br></span>
+                    <input class="input_" type="text" name="contactsForm" id="email" placeholder="Ваш E-mail" required>
+                    <span>Пароль<br></span>
+                    <input class="input_" type="password" name="password" minlength="8" placeholder="Не менее 8 символов" required>
+                    <span>Повторите пароль<br></span>
+                    <input class="input_" type="password" name="password2" placeholder="Введите Пароль" required><br>
+                    <input class="input__submit" type="submit" value="Зарегистрироваться">
+                </form>
+            </div>
+        </register>
+    </header>
+    <script src="js/jquery.email.min.js"></script>
+    <script src="js/inputmask.js"></script>
+    <script src="js/mask.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/sweetalert.js"></script>
+    <script src="js/register.js"></script>
+</body>
+
+</html>
